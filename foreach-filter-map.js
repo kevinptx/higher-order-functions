@@ -6,6 +6,10 @@ Use the filter method to remove any items where the turtle moves backwards or to
 
 const movements = [[0, 0], [0, 5], [-1, -3], [-3, 1], [2, -4], [3, 2]];
 
-     filteredMovements = movements.filter(m => m[0] >= 0 && m[1] >=0);
+    filteredMovements = movements.filter(m => m[0] >= 0 && m[1] >=0);
+    totalSteps = filteredMovements.map(m => m[0]+m[1]);
 
 console.log(filteredMovements);
+console.log(totalSteps);
+
+totalSteps.forEach(val => console.log(val));
