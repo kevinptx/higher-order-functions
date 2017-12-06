@@ -15,5 +15,5 @@ const movements = [[0, 0], [0, 5], [-1, -3], [-3, 1], [2, -4], [3, 2]];
 console.log(filteredMovements);
 console.log(totalSteps);
 
-//for each is applying the function to every element as well. We're saying for every element in the given array, apply the function console.log. Difference between .forEach() and .map() is that .map returns an array whereas forEach doesn't. It simply applies the function that you give it.
+//for each is applying the function to every element as well. We're saying for every element in the given array, apply the function console.log. Difference between .forEach() and .map() is that .map returns an array whereas forEach doesn't. It simply applies the function that you give it. forEach() tells you return value means nothing, while map() implies return value is useful.
 totalSteps.forEach(val => console.log(val));

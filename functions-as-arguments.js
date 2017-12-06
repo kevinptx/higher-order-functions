@@ -1,3 +1,5 @@
+'use strict';
+
 /*Functions as arguments (1)
 
 Create a function called repeat which takes two arguments:
@@ -13,7 +15,7 @@ Use your repeat function to call the goodbye function five times: repeat(goodbye
 */
 
 function repeat(fn, n) {
-  for(i=1; i <= n; i++) {
+  for (let i=0; i < n; i++) {
     fn();
   }
 }

@@ -35,7 +35,7 @@ function hazardWarningCreator(typeOfWarning){
     //because of scope chains we have access to warningCounter.
     warningCounter++;
     console.log(`DANGER! There is a ${typeOfWarning} hazard at ${location}!`);
-    //this is the meaning of the condensed code below:
+    //this is the approximate meaning of the condensed code below:
     //if(warningCount === 1){ console.log(''); } else { console.log('s'); }
     console.log(`The ${typeOfWarning} hazard alert has triggered ${warningCounter} time ${warningCounter===1?'':'s'} today!`);
   }
